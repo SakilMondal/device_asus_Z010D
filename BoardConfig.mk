@@ -27,5 +27,8 @@ TARGET_KERNEL_CONFIG := zc550kl-custom_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # inherit from the proprietary version
 -include vendor/asus/Z010D/BoardConfigVendor.mk
