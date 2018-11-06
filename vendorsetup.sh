@@ -1,1 +1,1 @@
-add_lunch_combo lineage_Z010D-userdebug
+add_lunch_combo bootleg_Z010D-userdebug
