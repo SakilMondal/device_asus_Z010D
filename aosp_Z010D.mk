@@ -17,3 +17,6 @@ PRODUCT_MODEL := Zenfone Max
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
+
+# AospExtended-BuildType
+EXTENDED_BUILD_TYPE := OFFICIAL
