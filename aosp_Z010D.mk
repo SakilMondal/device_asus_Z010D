@@ -20,3 +20,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 # AospExtended-BuildType
 EXTENDED_BUILD_TYPE := OFFICIAL
+
+# Product packages
+TARGET_USE_JELLY := true
+
