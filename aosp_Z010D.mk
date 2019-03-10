@@ -24,3 +24,7 @@ EXTENDED_BUILD_TYPE := OFFICIAL
 # Product packages
 TARGET_USE_JELLY := true
 
+# Use Gapps
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
