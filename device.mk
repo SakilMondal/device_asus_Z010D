@@ -20,9 +20,6 @@ $(call inherit-product-if-exists, vendor/asus/Z010DD/Z010DD-vendor.mk)
 
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
-# Overlay
-DEVICE_PACKAGE_OVERLAYS += device/asus/Z010D/overlay
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -30,6 +27,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
+
+# Include Bootanimation configuration
+TARGET_BOOT_ANIMATION_RES :=720
 
 # Inherit from msm8916-common
 $(call inherit-product, device/asus/msm8916-common/msm8916.mk)
